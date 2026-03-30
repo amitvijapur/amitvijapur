@@ -1,8 +1,6 @@
 <div align="center">
 
-# AMIT VIJAPUR
-
-**CS @ Durham · Quant Systems · Prediction Markets · Open Source**
+# AMIT 
 
 **CS @ Durham · Quant Systems · Prediction Markets · Open Source**
 
