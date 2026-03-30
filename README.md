@@ -1,62 +1,88 @@
-# Hi, I’m Amit 👋
+<div align="center">
+```
+██████╗ ██╗   ██╗██╗██╗     ██████╗ ██╗███╗   ██╗ ██████╗
+██╔══██╗██║   ██║██║██║     ██╔══██╗██║████╗  ██║██╔════╝
+██████╔╝██║   ██║██║██║     ██║  ██║██║██╔██╗ ██║██║  ███╗
+██╔══██╗██║   ██║██║██║     ██║  ██║██║██║╚██╗██║██║   ██║
+██████╔╝╚██████╔╝██║███████╗██████╔╝██║██║ ╚████║╚██████╔╝
+╚═════╝  ╚═════╝ ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
+```
 
-Computer Science student at Durham University with a strong interest in 
-software engineering, financial systems, and data-driven applications.
+**CS @ Durham · Quant Systems · Prediction Markets · Open Source**
 
-I enjoy building systems that combine real-time data, structured logic, 
-and quantitative analysis — particularly in fintech and Web3 contexts.
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=amitvijapur.amitvijapur)](https://github.com/amitvijapur)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amitvijapur-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/amitvijapur)
+[![Email](https://img.shields.io/badge/Email-vijapuramit@gmail.com-EA4335?style=flat&logo=gmail)](mailto:vijapuramit@gmail.com)
 
----
-
-## 🔍 What I’m Interested In
-
-- Financial infrastructure & trading systems
-- Time-series data analysis
-- Backend systems & API design
-- Blockchain networks & on-chain analytics
-- Risk-aware and compliance-driven systems
-
----
-
-## 🚀 Featured Project
-
-### 📈 BTC Trading Web Application
-A full-stack Bitcoin trading analysis platform built using real-time market APIs.
-
-- Integrated live market data via REST APIs  
-- Implemented technical indicators and trading signal logic  
-- Processed and visualised time-series data  
-- Focused on frontend–backend integration and API handling  
-
-(See repository for implementation details.)
+</div>
 
 ---
 
-## 🛠 Tech Stack
-
-**Languages:** Python, Java, C/C++, JavaScript, SQL  
-**Web:** HTML, CSS, REST APIs  
-**Tools:** Git, MySQL, NumPy  
-**Concepts:** OOP, Data Structures & Algorithms, Debugging, Time-Series Analysis  
+> *I build trading systems, prediction market tooling and AI infrastructure.*
+> *Currently looking for Summer 2026 internships in quant and software engineering.*
 
 ---
 
-## 🧠 Background
+## ⚡ what i'm building
 
-Previously served as a 3rd Sergeant in the Singapore Army (Military Police), 
-where I operated in high-pressure, compliance-driven environments and led a 10-man team.  
-That experience shaped my structured approach to problem-solving and risk management.
-
----
-
-## Outside of Code
-
-When I’m not building, I’m usually:
-- Running long distances
-- Doing street photography
-- Exploring specialty coffee
+| project | what it does | stack |
+|---|---|---|
+| **Prediction Markets Bot** | Arb bot + execution engine for Polymarket & Kalshi — scans for cross-market inefficiencies and fires orders automatically | Python, REST/WS APIs |
+| **Market Intelligence Terminal** | AI-powered research tool for traders. News synthesis, sentiment scoring, portfolio-level signal generation | React, Next.js, Supabase, Stripe |
+| **Crypto Trading Simulator** | Multi-indicator signal engine with 6-layer architecture (ADX gate → EMA trend → HTF confirmation). Full backtesting framework | Vanilla JS, Node.js, Chart.js |
+| **claude-skills** | Open source Claude Code skills ecosystem — OMC Agency, session-init, skill-auditor and more | Shell, Markdown |
 
 ---
 
-📫 Reach me at: vijapuramit@gmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/amitvijapur/
+## 🛠 stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## 📐 background
+
+**CS @ Durham University** — first year, focused on quant systems and algorithmic trading.
+
+Before Durham: **3rd Sergeant, Singapore Army (Military Police)** — led a 10-man team in high-pressure, compliance-driven environments. That's where I learned to think in systems and manage risk before I knew what those words meant in finance.
+
+Active in **DUE Zero-to-One** entrepreneurship programme and Durham Entrepreneurs Society.
+
+---
+
+## 📊 github stats
+
+<div align="center">
+
+![Amit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=amitvijapur&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=58a6ff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amitvijapur&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff)
+
+</div>
+
+---
+
+## 🎯 outside the terminal
+
+long distance running &nbsp;·&nbsp; street photography &nbsp;·&nbsp; specialty coffee
+
+---
+
+<div align="center">
+
+**open to Summer 2026 internships — quant trading, software engineering, fintech**
+
+*vijapuramit@gmail.com*
+
+</div>
