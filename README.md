@@ -22,7 +22,6 @@
 | project | what it does | stack |
 |---|---|---|
 | **Prediction Markets Bot** | Arb bot + execution engine for Polymarket & Kalshi — scans for cross-market inefficiencies and fires orders automatically | Python, REST/WS APIs |
-| **Market Intelligence Terminal** | AI-powered research tool for traders. News synthesis, sentiment scoring, portfolio-level signal generation | React, Next.js, Supabase, Stripe |
 | **Crypto Trading Simulator** | Multi-indicator signal engine with 6-layer architecture (ADX gate → EMA trend → HTF confirmation). Full backtesting framework | Vanilla JS, Node.js, Chart.js |
 | **claude-skills** | Open source Claude Code skills ecosystem — OMC Agency, session-init, skill-auditor and more | Shell, Markdown |
 
@@ -52,14 +51,17 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-</div>
-
 ## 📐 background
 
-**CS @ Durham University** — first year, focused on quant systems and algorithmic trading.
+**CS @ Durham University** — first year, deep in quant systems, algorithmic trading and AI infrastructure.
+Building real products alongside the degree, not after it.
 
-Before Durham: **3rd Sergeant, Singapore Army (Military Police)** — led a 10-man team in high-pressure, compliance-driven environments. That's where I learned to think in systems and manage risk before I knew what those words meant in finance.
+Before Durham: **3rd Sergeant, Singapore Army (Military Police)** — commanded a 10-man team in 
+high-pressure, compliance-driven environments. Learned to think in systems and manage risk before I 
+knew what those words meant in trading.
 
+Currently obsessed with **prediction markets** — building execution infrastructure on Polymarket and Kalshi, 
+exploring arbitrage strategies and writing about it on Substack.
 
 ---
 
@@ -75,16 +77,20 @@ Before Durham: **3rd Sergeant, Singapore Army (Military Police)** — led a 10-m
 
 ---
 
-## 🎯 outside the terminal
+### 📝 writing
 
-long distance running &nbsp;·&nbsp; street photography &nbsp;·&nbsp; specialty coffee
+I write about crypto, tokenomics, quant and emerging tech.
+
+[![Substack](https://img.shields.io/badge/Substack-mitsterr-FF6719?style=flat&logo=substack&logoColor=white)](https://substack.com/@mitsterr)
+
+Latest: **Crypto-Currencies & Tokenomics: Their Relevance in the Next Decade**
 
 ---
 
-<div align="center">
-
-**open to Summer 2026 internships — quant trading, software engineering, fintech**
-
-*vijapuramit@gmail.com*
-
-</div>
+### 🎯 outside the terminal
+```
+long distance running  ·  
+street photography     ·  
+specialty coffee       · 
+guitar                 ·  
+```
