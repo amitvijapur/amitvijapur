@@ -51,7 +51,6 @@
 
 Before Durham: **3rd Sergeant, Singapore Army (Military Police)** — led a 10-man team in high-pressure, compliance-driven environments. That's where I learned to think in systems and manage risk before I knew what those words meant in finance.
 
-Active in **DUE Zero-to-One** entrepreneurship programme and Durham Entrepreneurs Society.
 
 ---
 
