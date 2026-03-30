@@ -63,19 +63,6 @@ knew what those words meant in trading.
 Currently obsessed with **prediction markets** — building execution infrastructure on Polymarket and Kalshi, 
 exploring arbitrage strategies and writing about it on Substack.
 
----
-
-## 📊 github stats
-
-<div align="center">
-
-![Amit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=amitvijapur&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&icon_color=58a6ff)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amitvijapur&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff)
-
-</div>
-
----
 
 ### 📝 writing
 
