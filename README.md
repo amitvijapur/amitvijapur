@@ -13,7 +13,7 @@
 
 ---
 
-> *I build trading systems, agent infrastructure, and the routing layers that decide who should do the work — a model, a machine, or a person.*
+> *I build trading systems, agentic infrastructure, and the routing layers that decide who should do the work — a model, a machine, or a person.*
 
 ---
 
