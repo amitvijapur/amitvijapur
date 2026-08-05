@@ -57,16 +57,6 @@ A friendly response to Karpathy's LLM Council: multi-model voting is one useful 
 
 ---
 
-## 🧰 also open source
-
-| repo | what it does |
-|---|---|
-| [orchestrator](https://github.com/amitvijapur/orchestrator) | Prompt generator and router for Claude Code — classifies a task, calibrates effort, picks the system and the specialist, and writes the prompt |
-| [skill-auditor](https://github.com/amitvijapur/skill-auditor) | Audits a candidate Claude skill for redundancy, routing conflicts and trigger collisions *before* you install it |
-| [claude-skills](https://github.com/amitvijapur/claude-skills) | The hub repo — every skill above, cloneable in one go |
-
----
-
 ## 🔧 merged into other people's code
 
 Five PRs merged in three weeks, all into tools I use daily. Each one started as a bug I hit myself, was reproduced before it was fixed, and shipped with regression tests.
