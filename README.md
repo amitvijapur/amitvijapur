@@ -67,6 +67,22 @@ A friendly response to Karpathy's LLM Council: multi-model voting is one useful 
 
 ---
 
+## 🔧 merged into other people's code
+
+Five PRs merged in three weeks, all into tools I use daily. Each one started as a bug I hit myself, was reproduced before it was fixed, and shipped with regression tests.
+
+| project | ★ | what landed |
+|---|---|---|
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) | 77.5k | A `PostToolUse` hook read its payload from a stale env var instead of stdin, so it silently saw nothing |
+| [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) | 72.6k | The response cache dropped cookies on browser-engine responses, breaking session reuse |
+| [last30days](https://github.com/mvanhorn/last30days-skill/pull/851) | 57.3k | A silent fallback masked YouTube transcript failures, so a broken fetch looked identical to an empty result |
+| [fastmcp](https://github.com/punkpeye/fastmcp/pull/296) | 3.2k | **MCP resource subscriptions** — a new feature, shipped in `v4.8.0` |
+| [toolport](https://github.com/tsouth89/toolport/pull/366) | 108 | Witsy MCP client support, credited by the maintainer in the README |
+
+In review: two PRs into [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) (★5.7k) closing a space-filter bypass across the Confluence tools. The allowlist was checked against the space you named, but not against the parent page the write actually landed under — so the page was created in a filtered space and the error only surfaced afterwards.
+
+---
+
 ## 🏆 hackathons & build weeks
 
 ### 🥇 GenAI Fund Agentic AI Build Week 2026 — Ho Chi Minh City
