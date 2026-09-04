@@ -41,6 +41,16 @@ A friendly response to Karpathy's LLM Council: multi-model voting is one useful 
 
 ---
 
+### [multi-factor-equity-screener](https://github.com/amitvijapur/multi-factor-equity-screener)
+
+**Forward-testing an equity screener before trusting it.** Validation design, pre-registered promotion criteria, and the write-up of what happened when the harness found the scoring model was inverted — the screener was ranking the worst names highest, and only a pre-committed test caught it.
+
+Methodology is public; the implementation stays private.
+
+`Python` · pre-registered validation
+
+---
+
 ### [backtesting-engine](https://github.com/amitvijapur/backtesting-engine)
 
 **A modular backtesting engine in Rust**, built on [Polars](https://pola.rs/). Strategies are swappable behind a `Strategy` trait, execution is realistic (next-bar fills, commission, slippage), and it ships with Kelly position sizing, grid-search parameter optimisation, and walk-forward validation to catch overfitting. Includes a Rust-versus-pandas benchmark.
@@ -59,17 +69,30 @@ A friendly response to Karpathy's LLM Council: multi-model voting is one useful 
 
 ## 🔧 merged into other people's code
 
-Five PRs merged in three weeks, all into tools I use daily. Each one started as a bug I hit myself, was reproduced before it was fixed, and shipped with regression tests.
+Eight PRs merged into tools I use daily. Each one started as a bug I hit myself, was reproduced before it was fixed, and shipped with regression tests.
 
 | project | ★ | what landed |
 |---|---|---|
-| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) | 77.5k | A `PostToolUse` hook read its payload from a stale env var instead of stdin, so it silently saw nothing |
-| [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) | 72.6k | The response cache dropped cookies on browser-engine responses, breaking session reuse |
-| [last30days](https://github.com/mvanhorn/last30days-skill/pull/851) | 57.3k | A silent fallback masked YouTube transcript failures, so a broken fetch looked identical to an empty result |
-| [fastmcp](https://github.com/punkpeye/fastmcp/pull/296) | 3.2k | **MCP resource subscriptions** — a new feature, shipped in `v4.8.0` |
-| [toolport](https://github.com/tsouth89/toolport/pull/366) | 108 | Witsy MCP client support, credited by the maintainer in the README |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) | 81.5k | A `PostToolUse` hook read its payload from a stale env var instead of stdin, so it silently saw nothing |
+| [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) | 78.4k | The response cache dropped cookies on browser-engine responses, breaking session reuse |
+| [last30days](https://github.com/mvanhorn/last30days-skill/pull/851) | 61.2k | A silent fallback masked YouTube transcript failures, so a broken fetch looked identical to an empty result |
+| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian/pull/1518) | 5.8k | Clearing an issue's parent silently did nothing — an explicit `null` was read as "field omitted" |
+| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian/pull/1590) | 5.8k | A blank line before `----` became an empty `h2.` in the Jira markup conversion |
+| [fastmcp](https://github.com/punkpeye/fastmcp/pull/296) | 3.3k | **MCP resource subscriptions** — a new feature, shipped in `v4.8.0` |
+| [chat](https://github.com/vercel/chat/pull/846) | 2.3k | Slack alert attachments lost their content once a message was normalised |
+| [toolport](https://github.com/btsouth/toolport/pull/366) | 201 | Witsy MCP client support, credited by the maintainer in the README |
 
-In review: two PRs into [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) (★5.7k) closing a space-filter bypass across the Confluence tools. The allowlist was checked against the space you named, but not against the parent page the write actually landed under — so the page was created in a filtered space and the error only surfaced afterwards.
+**In review** — seven open, into engines and platforms I depend on:
+
+| project | ★ | what it fixes |
+|---|---|---|
+| [mastra](https://github.com/mastra-ai/mastra/pull/22378) | 27.7k | Three containment gaps in `run-command-tool` |
+| [datafusion](https://github.com/apache/datafusion/pull/24409) | 9.3k | Spark `pmod` derived its decimal result type after coercion, which collapsed both precisions and degenerated the rule to the input precision |
+| [registry](https://github.com/modelcontextprotocol/registry/pull/1470) | 7.2k | `IsValidRemoteURL` accepted loopback, private and link-local hosts |
+| [registry](https://github.com/modelcontextprotocol/registry/pull/1471) | 7.2k | **Search matches server descriptions**, not just names — a new capability |
+| [mcp-atlassian](https://github.com/sooperset/mcp-atlassian/pull/1648) | 5.8k | `CONFLUENCE_SPACES_FILTER` was never applied to space listings |
+| [workers-sdk](https://github.com/cloudflare/workers-sdk/pull/15237) | 4.5k | The Vite plugin dropped the port on requests arriving over HTTP/2 |
+| [git-proxy](https://github.com/finos/git-proxy/pull/1708) | 245 | Deprecation warnings drifted from the schema; now driven off `config.schema.json` |
 
 ---
 
