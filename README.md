@@ -53,28 +53,31 @@ Methodology is public; the implementation stays private.
 
 ## 🔧 merged into other people's code
 
-Nine PRs merged into tools I use daily. Each one started as a bug I hit myself, was reproduced before it was fixed, and shipped with regression tests.
+Twelve PRs merged into tools I use daily, three of them into Apache Arrow and DataFusion projects. Each was reproduced before it was fixed and verified in the project's own test suite.
 
 | project | ★ | what landed |
 |---|---|---|
-| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) | 82.0k | A `PostToolUse` hook read its payload from a stale env var instead of stdin, so it silently saw nothing |
-| [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) | 80.2k | The response cache dropped cookies on browser-engine responses, breaking session reuse |
-| [last30days](https://github.com/mvanhorn/last30days-skill/pull/851) | 61.8k | A silent fallback masked YouTube transcript failures, so a broken fetch looked identical to an empty result |
+| [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) | 83.5k | A `PostToolUse` hook read its payload from a stale env var instead of stdin, so it silently saw nothing |
+| [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) | 82.8k | The response cache dropped cookies on browser-engine responses, breaking session reuse |
+| [last30days](https://github.com/mvanhorn/last30days-skill/pull/851) | 62.5k | A silent fallback masked YouTube transcript failures, so a broken fetch looked identical to an empty result |
 | [datafusion](https://github.com/apache/datafusion/pull/24409) | 9.3k | Spark `pmod` derived its decimal result type after coercion, which collapsed both precisions and degenerated the rule to the input precision |
 | [mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | 5.9k | [#1518](https://github.com/sooperset/mcp-atlassian/pull/1518) clearing an issue's parent silently did nothing, because an explicit `null` was read as "field omitted" · [#1590](https://github.com/sooperset/mcp-atlassian/pull/1590) a blank line before `----` became an empty `h2.` in the Jira markup conversion |
+| [arrow-rs](https://github.com/apache/arrow-rs/pull/11074) | 3.6k | The struct cast helpers moved out of `cast/mod.rs` into their own submodule, a verbatim move proven by diffing the deleted lines against the new file |
 | [fastmcp](https://github.com/punkpeye/fastmcp/pull/296) | 3.3k | **MCP resource subscriptions** — a new feature, shipped in `v4.8.0` |
 | [chat](https://github.com/vercel/chat/pull/846) | 2.4k | Slack alert attachments lost their content once a message was normalised |
-| [toolport](https://github.com/btsouth/toolport/pull/366) | 211 | Witsy MCP client support, credited by the maintainer in the README |
+| [datafusion-ballista](https://github.com/apache/datafusion-ballista/pull/2460) | 2.1k | Benchmark failure artifacts only ever held the scheduler log: in a container job the runner translates just the first line of a multi-line path, so one glob replaced two lines |
+| [git-proxy](https://github.com/finos/git-proxy/pull/1708) | 252 | Deprecation warnings drifted from the schema; now driven off `config.schema.json` |
+| [toolport](https://github.com/btsouth/toolport/pull/366) | 218 | Witsy MCP client support, credited by the maintainer in the README |
 
 **In review** — six open, into engines and platforms I depend on:
 
 | project | ★ | what it fixes |
 |---|---|---|
-| [mastra](https://github.com/mastra-ai/mastra/pull/22378) | 27.9k | Three containment gaps in `run-command-tool` |
-| [registry](https://github.com/modelcontextprotocol/registry) | 7.2k | [#1470](https://github.com/modelcontextprotocol/registry/pull/1470) `IsValidRemoteURL` accepted loopback, private and link-local hosts · [#1471](https://github.com/modelcontextprotocol/registry/pull/1471) search now matches server descriptions, not just names |
+| [mastra](https://github.com/mastra-ai/mastra/pull/22378) | 28.2k | Three containment gaps in `run-command-tool` |
+| [registry](https://github.com/modelcontextprotocol/registry) | 7.3k | [#1470](https://github.com/modelcontextprotocol/registry/pull/1470) `IsValidRemoteURL` accepted loopback, private and link-local hosts · [#1471](https://github.com/modelcontextprotocol/registry/pull/1471) search now matches server descriptions, not just names |
 | [mcp-atlassian](https://github.com/sooperset/mcp-atlassian/pull/1648) | 5.9k | `CONFLUENCE_SPACES_FILTER` was never applied to space listings |
+| [arrow-rs](https://github.com/apache/arrow-rs/pull/11151) | 3.6k | The root `LICENSE.txt` never named the MIT-licensed file vendored from chronoutil; on the 60.1.0 release checklist |
 | [chat](https://github.com/vercel/chat/pull/923) | 2.4k | The Discord gateway packet was reshaped before forwarding, instead of passed through as it arrived |
-| [git-proxy](https://github.com/finos/git-proxy/pull/1708) | 249 | Deprecation warnings drifted from the schema; now driven off `config.schema.json` |
 
 ---
 
