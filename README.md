@@ -12,11 +12,11 @@ I build tools that route work between AI and people, test trading ideas, and imp
 
 ## What I'm building
 
-| | Project |
-|:---:|---|
-| <img src="https://raw.githubusercontent.com/amitvijapur/warrant/main/app/icon.svg" width="56" alt="warrant logo" /> | **[warrant](https://github.com/amitvijapur/warrant)** · [live demo](https://warrant-agentos.netlify.app)<br>Routes work between humans and AI using evidence-based scores. Irreversible actions need signed human approval, and outcomes improve future routing. Built solo; **top 5 of 53** at GenAI Fund Agentic AI Build Week 2026. |
-| <img src="https://raw.githubusercontent.com/amitvijapur/cortex/main/assets/cortex-logo.png" width="56" alt="cortex logo" /> | **[cortex](https://github.com/amitvijapur/cortex)**<br>Chooses the workflow, specialist, and effort tier for coding tasks, then logs decisions and learns from outcomes. |
-| 📈 | **[multi-factor-equity-screener](https://github.com/amitvijapur/multi-factor-equity-screener)**<br>A public write-up on forward-testing a trading screener. Pre-registered checks caught an inverted ranking model; the implementation is private. |
+| Project |
+|---|
+| <img src="https://raw.githubusercontent.com/amitvijapur/warrant/main/app/icon.svg" width="32" alt="warrant logo" /> **[warrant](https://github.com/amitvijapur/warrant)** · [live demo](https://warrant-agentos.netlify.app)<br>Routes work between humans and AI using evidence-based scores. Irreversible actions need signed human approval, and outcomes improve future routing. Built solo; **top 5 of 53** at GenAI Fund Agentic AI Build Week 2026. |
+| <img src="https://raw.githubusercontent.com/amitvijapur/cortex/main/assets/cortex-logo.png" width="32" alt="cortex logo" /> **[cortex](https://github.com/amitvijapur/cortex)**<br>Chooses the workflow, specialist, and effort tier for coding tasks, then logs decisions and learns from outcomes. |
+| 📈 **[multi-factor-equity-screener](https://github.com/amitvijapur/multi-factor-equity-screener)**<br>A public write-up on forward-testing a trading screener. Pre-registered checks caught an inverted ranking model; the implementation is private. |
 
 ## Open source
 
