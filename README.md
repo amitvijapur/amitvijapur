@@ -20,7 +20,7 @@ I build tools that route work between AI and people, test trading ideas, and imp
 
 ## Open source
 
-![2026 open-source contributions: 12 merged PRs, including 3 in data engines, 3 in agent tooling, and 6 in developer tooling](assets/open-source-2026.svg)
+![2026 open-source contributions: 12 merged PRs, including 3 in data engines, 3 in agent tooling, and 6 in developer tooling](assets/open-source-2026-compact.svg)
 
 - **Data engines:** [DataFusion](https://github.com/apache/datafusion/pull/24409) (Spark decimal semantics), [Arrow Rust](https://github.com/apache/arrow-rs/pull/11074) (cast-module refactor), and [Ballista](https://github.com/apache/datafusion-ballista/pull/2460) (benchmark failure artifacts).
 - **Agent tooling:** [FastMCP](https://github.com/punkpeye/fastmcp/pull/296) (resource subscriptions) and mcp-atlassian ([Jira parent updates](https://github.com/sooperset/mcp-atlassian/pull/1518), [Jira formatting](https://github.com/sooperset/mcp-atlassian/pull/1590)).
