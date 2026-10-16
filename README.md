@@ -21,11 +21,11 @@ I build tools that route work between AI and people, test trading ideas, and imp
 
 ## Open source
 
-![2026 open-source contributions: 12 merged PRs, including 3 in data engines, 3 in agent tooling, and 6 in developer tooling](assets/open-source-2026-compact.svg)
+![2026 external open-source contributions: 17 merged PRs, including 7 in data engines, 3 in agent tooling, and 7 in developer tooling](assets/open-source-2026-compact.svg)
 
-- **Data engines:** [DataFusion](https://github.com/apache/datafusion/pull/24409) (Spark decimal semantics), [Arrow Rust](https://github.com/apache/arrow-rs/pull/11074) (cast-module refactor), and [Ballista](https://github.com/apache/datafusion-ballista/pull/2460) (benchmark failure artifacts).
+- **Data engines:** [DataFusion](https://github.com/apache/datafusion/pull/24409) (Spark decimal semantics); Arrow Rust ([cast-module refactor](https://github.com/apache/arrow-rs/pull/11074), [benchmark overflow](https://github.com/apache/arrow-rs/pull/11175), [MIT attribution](https://github.com/apache/arrow-rs/pull/11151), [list null validation](https://github.com/apache/arrow-rs/pull/11178)); and Ballista ([benchmark failure artifacts](https://github.com/apache/datafusion-ballista/pull/2460), [scheduler vcore refunds](https://github.com/apache/datafusion-ballista/pull/2477)).
 - **Agent tooling:** [FastMCP](https://github.com/punkpeye/fastmcp/pull/296) (resource subscriptions) and mcp-atlassian ([Jira parent updates](https://github.com/sooperset/mcp-atlassian/pull/1518), [Jira formatting](https://github.com/sooperset/mcp-atlassian/pull/1590)).
-- **Developer tools:** [Vercel Chat](https://github.com/vercel/chat/pull/846) (Slack attachments), [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) (cached browser cookies), [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) (hook input), [last30days](https://github.com/mvanhorn/last30days-skill/pull/851), [git-proxy](https://github.com/finos/git-proxy/pull/1708), and [toolport](https://github.com/btsouth/toolport/pull/366).
+- **Developer tools:** Vercel Chat ([Slack attachments](https://github.com/vercel/chat/pull/846), [Discord packet fidelity](https://github.com/vercel/chat/pull/923)), [Scrapling](https://github.com/D4Vinci/Scrapling/pull/379) (cached browser cookies), [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything/pull/598) (hook input), [last30days](https://github.com/mvanhorn/last30days-skill/pull/851), [git-proxy](https://github.com/finos/git-proxy/pull/1708), and [toolport](https://github.com/btsouth/toolport/pull/366).
 
 ## Tech stack
 
